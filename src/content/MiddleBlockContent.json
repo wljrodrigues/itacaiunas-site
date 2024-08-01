@@ -1,8 +1,6 @@
 {
-    "title": "Introduce your product quickly & effectively",
-    "text": "Landy comes with multi-lingual support, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in developing web applications using React.js.",
-    "button": "Get started",
-    "url": "/sobre"
-    
-  }
+  "title": "Apresente seu produto de forma rápida e eficaz",
+  "text": "Landy vem com suporte multilíngue, todo o conteúdo é armazenado em arquivos JSON, para que você possa gerenciar os textos sem ter nenhum conhecimento prévio em desenvolvimento de aplicativos da web usando React.js.",
+  "button": "Comece"
   
+  }

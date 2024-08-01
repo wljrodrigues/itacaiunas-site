@@ -50,43 +50,50 @@ const Footer = ({ t }: { t: TFunction }) => {
       <FooterSection>
         <Container>
           <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
-              <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
+              <Col lg={10} md={10} sm={12} xs={12}>
+              <Language>{t("Contato")}</Language>
+              <Large to="/">{t("Respondemos rapidamente")}</Large>
               <Para>
-                {t(`Do you have any question? Feel free to reach out.`)}
+                {t(`Você tem alguma pergunta? Sinta-se à vontade para entrar em contato.`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
-                <Chat>{t(`Let's Chat`)}</Chat>
+              <a href="https://api.whatsapp.com/send?phone=5591982161196&text=Ol%C3%A1!%20Solicito%20atendimento%20para%20o%20site%20Itacai%C3%BAnas%20-%20itacaiunas.com.br">
+                <Chat>{t(`Falar no WhatsApp!`)}</Chat>
               </a>
             </Col>
+
             <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Policy")}</Title>
-              <Large to="/">{t("Application Security")}</Large>
-              <Large to="/">{t("Software Principles")}</Large>
+              <Title>{t("Políticas do site")}</Title>
+              <Large to="/privacidade">{t("Privacidade")}</Large>
+              <Large to="/">{t("Termos de uso")}</Large>
             </Col>
+            
             <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
-              <Large to="/">{t("Support Center")}</Large>
-              <Large to="/">{t("Customer Support")}</Large>
+              <Large to="/">{t("Itacaiúnas IA")}</Large>
+              <Large to="/">{t("E-books grátis")}</Large>
             </Col>
           </Row>
+
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
-              <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
+              <Language>{t("Onde estamos")}</Language>
+               <Para>Conj. Abelardo Condurú, </Para>
+              <Para>Quadra Dezoito, 7A</Para>
+              <Para>Ananindeua - Pará</Para>
             </Col>
+          
             <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Company")}</Title>
-              <Large to="/">{t("About")}</Large>
-              <Large to="/">{t("Blog")}</Large>
-              <Large to="/">{t("Press")}</Large>
-              <Large to="/">{t("Careers & Culture")}</Large>
+              <Title>{t("A Itacaiúnas")}</Title>
+              <Large to="/sobre">{t("Sobre")}</Large>
+              <Large to="/">{t("Serviços")}</Large>
+              <Large to="/">{t("Política de privacidade")}</Large>
+              <Large to="/">{t("Termos de uso")}</Large>
             </Col>
+          
             <Col lg={6} md={6} sm={12} xs={12}>
+            <Label htmlFor="select-lang">{t("Parceiros")}</Label>
+            {/*
               <Label htmlFor="select-lang">{t("Language")}</Label>
               <LanguageSwitchContainer>
                 <LanguageSwitch onClick={() => handleChange("en")}>
@@ -106,6 +113,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                   />
                 </LanguageSwitch>
               </LanguageSwitchContainer>
+            */}
             </Col>
           </Row>
         </Container>
@@ -129,21 +137,23 @@ const Footer = ({ t }: { t: TFunction }) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
-                src="github.svg"
+                href="https://www.instagram.com/editoraitacaiunas/"
+                src="instagram.svg"
               />
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
+                href="https://www.youtube.com/@itacaiunas"
+                src="youtube.svg"
+              />
+              
+              <SocialLink
+                href="https://facebook.com/editoraitacaiunas/"
+                src="facebook.svg"
+              />
+              <SocialLink
+                href="https://twitter.com/editacaiunas"
                 src="twitter.svg"
               />
-              <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
-                src="linkedin.svg"
-              />
-              <SocialLink
-                href="https://medium.com/@lashakakabadze/"
-                src="medium.svg"
-              />
+              {/*
               <a
                 href="https://ko-fi.com/Y8Y7H8BNJ"
                 target="_blank"
@@ -156,6 +166,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                   alt="Buy Me a Coffee at ko-fi.com"
                 />
               </a>
+              */}
             </FooterContainer>
           </Row>
         </Container>

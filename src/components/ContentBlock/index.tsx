@@ -25,6 +25,7 @@ const ContentBlock = ({
   t,
   id,
   direction,
+  
 }: ContentBlockProps) => {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;

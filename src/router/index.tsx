@@ -1,3 +1,4 @@
+// src/router/index.js
 import { lazy, Suspense } from "react";
 import { Switch, Route } from "react-router-dom";
 import Footer from "../components/Footer";
@@ -7,7 +8,7 @@ import { Styles } from "../styles/styles";
 
 const Router = () => {
   return (
-    <Suspense fallback={null}>
+    <Suspense fallback={<div>Loading...</div>}>
       <Styles />
       <Header />
       <Switch>

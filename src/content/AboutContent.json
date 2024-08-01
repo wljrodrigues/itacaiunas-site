@@ -1,25 +1,26 @@
 {
-  "title": "Quem somos",
-  "text": "Fundada em 2014 na cidade de Ananindeua, no estado do Pará, a Itacaiúnas tem como missão transformar ideias em realidades tangíveis. Desde o início, nos dedicamos a oferecer uma gama diversificada de serviços e produtos que atendam às necessidades dos nossos clientes com qualidade e inovação.",
+  "title": "Nossos Serviços",
+  "text": "Para você que deseja publicar um livro, adquirir uma obra ou publicar seu site ou loja virtual na Internet. Conheça nossos produtos e serviços.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg",
+      "title": "Publicação e Livraria:",
+      "content": "Oferecemos serviços de publicação de livros com nossas editoras e temos um livraria para atendimento e comercialização de produtos editoriais e gráficos.",
+      "icon": "book-svgrepo-com.svg",
       "button": {
-        "text": "Learn More",
-        "url": "/learn-more"
+        "text": "Saiba mais",
+        "url": "/publicar"
       }
       
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg",
+      "title": "Serviços Gráficos e Web:",
+      "content": "Especializamos em personalização e impressão gráfica, criação de sites e lojas virtuais, elaboração de mapas temáticos e interativos entre outros.",
+      "icon": "laptop-check-svgrepo-com.svg",
       "button": {
-        "text": "Learn More",
-        "url": "/learn-more"
+        "text": "Saiba mais",
+        "url": "/solucoes"
       }
+     
     }
   ]
 }

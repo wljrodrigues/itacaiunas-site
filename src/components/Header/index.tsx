@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { Row, Col, Drawer } from "antd";
 import { withTranslation, TFunction } from "react-i18next";
+import { useHistory } from "react-router-dom";
 import Container from "../../common/Container";
 import { SvgIcon } from "../../common/SvgIcon";
 import { Button } from "../../common/Button";
+
 import {
   HeaderSection,
   LogoContainer,
@@ -18,6 +20,7 @@ import {
 
 const Header = ({ t }: { t: TFunction }) => {
   const [visible, setVisibility] = useState(false);
+  const history = useHistory();
 
   const toggleButton = () => {
     setVisibility(!visible);
@@ -31,21 +34,28 @@ const Header = ({ t }: { t: TFunction }) => {
       });
       setVisibility(false);
     };
+
     return (
       <>
-        <CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <Span>{t("Sobre")}</Span>
+       
+       <CustomNavLinkSmall 
+        onClick={() => history.push("/")}>
+          <Span>{t("home")}</Span>
         </CustomNavLinkSmall>
-        {/*<CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>{t("Missão")}</Span>
+
+        <CustomNavLinkSmall 
+        onClick={() => history.push("/sobre")}>
+          <Span>{t("sobre")}</Span>
         </CustomNavLinkSmall>
-        */}
-        <CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <Span>{t("Nossos Serviços")}</Span>
+
+        <CustomNavLinkSmall 
+        onClick={() => history.push("/services")}>
+          <Span>{t("serviços")}</Span>
         </CustomNavLinkSmall>
+
         <CustomNavLinkSmall
           style={{ width: "180px" }}
-          onClick={() => scrollTo("contact")}
+          onClick={() => history.push("/contato")}
         >
           <Span>
             <Button>{t("Contato")}</Button>

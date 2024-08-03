@@ -7,7 +7,18 @@ const routes = [
   {
     path: [ "/sobre"],
     exact: true,
-    component: "sobre/Sobre",
+    component: "Sobre",
+  },
+
+  {
+    path: [ "/services"],
+    exact: true,
+    component: "Services",
+  },
+  {
+    path: [ "/contato"],
+    exact: true,
+    component: "Contato",
   },
 ];
 

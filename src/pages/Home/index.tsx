@@ -36,7 +36,7 @@ const Home = () => {
         title={AboutContent.title}
         content={AboutContent.text}
         section={AboutContent.section}
-        icon="man-5433470.svg"
+        icon="graphs.svg"
         id="product"
         
       />
@@ -63,6 +63,7 @@ const Home = () => {
         id="contact"
       />
     </Container>
+    
   );
 };
 

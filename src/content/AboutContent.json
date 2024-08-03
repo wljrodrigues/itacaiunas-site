@@ -1,24 +1,24 @@
 {
   "title": "Nossos Serviços",
-  "text": "Para você que deseja publicar um livro, adquirir uma obra ou publicar seu site ou loja virtual na Internet. Conheça nossos produtos e serviços.",
+  "text": "Serviços para você que deseja publicar um livro, adquirir uma obra ou publicar seu site ou loja virtual na Internet. Conheça nossos produtos e serviços.",
   "section": [
     {
-      "title": "Publicação e Livraria:",
+      "title": "Publicação e Livraria",
       "content": "Oferecemos serviços de publicação de livros com nossas editoras e temos um livraria para atendimento e comercialização de produtos editoriais e gráficos.",
       "icon": "book-svgrepo-com.svg",
       "button": {
-        "text": "Saiba mais",
-        "url": "/publicar"
+        "text": "Conheça 🔗",
+        "url": "/services"
       }
       
     },
     {
-      "title": "Serviços Gráficos e Web:",
+      "title": "Serviços Gráficos e Web",
       "content": "Especializamos em personalização e impressão gráfica, criação de sites e lojas virtuais, elaboração de mapas temáticos e interativos entre outros.",
       "icon": "laptop-check-svgrepo-com.svg",
       "button": {
-        "text": "Saiba mais",
-        "url": "/solucoes"
+        "text": "Conheça 🔗",
+        "url": "/services"
       }
      
     }

@@ -1,0 +1,63 @@
+/* styles.css */
+
+/* Container for the entire page */
+.services-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Title and section headings */
+.services-page h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+  border-bottom: 2px solid #1890ff;
+  padding-bottom: 10px;
+}
+
+/* Service section container */
+.service-section {
+  margin-bottom: 40px;
+}
+
+/* Service item card */
+.service-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Service title */
+.service-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #1890ff;
+}
+
+/* Service description */
+.service-item p {
+  font-size: 1em;
+  color: #555;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* "Saiba mais" button */
+.service-item a {
+  background-color: #679573;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.service-item a:hover {
+  background-color: #7e9579;
+}

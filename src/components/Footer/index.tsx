@@ -56,7 +56,7 @@ const Footer = ({ t }: { t: TFunction }) => {
               <Para>
                 {t(`Você tem alguma pergunta? Sinta-se à vontade para entrar em contato.`)}
               </Para>
-              <a href="https://api.whatsapp.com/send?phone=5591982161196&text=Ol%C3%A1!%20Solicito%20atendimento%20para%20o%20site%20Itacai%C3%BAnas%20-%20itacaiunas.com.br">
+              <a href="https://api.whatsapp.com/send?phone=5591982161196&text=Ol%C3%A1!%20Solicito%20atendimento%20para%20o%20site%20Itacai%C3%BAnas%20-%20itacaiunas.com.br" target="_blak">
                 <Chat>{t(`Falar no WhatsApp!`)}</Chat>
               </a>
             </Col>
@@ -78,9 +78,11 @@ const Footer = ({ t }: { t: TFunction }) => {
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Onde estamos")}</Language>
+           <a href="https://maps.app.goo.gl/xF143vx1AWSLxVsr9" target="_blak">  
                <Para>Conj. Abelardo Condurú, </Para>
               <Para>Quadra Dezoito, 7A</Para>
               <Para>Ananindeua - Pará</Para>
+              </a> 
             </Col>
           
             <Col lg={8} md={8} sm={12} xs={12}>

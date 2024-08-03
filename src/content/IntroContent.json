@@ -4,7 +4,13 @@
   "button": [
     {
       "title": "Saiba mais"
+    },
+
+    {
+      "title": "Sobre"
     }
     
   ]
+
+  
 }

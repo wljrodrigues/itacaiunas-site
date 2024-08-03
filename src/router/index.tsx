@@ -8,7 +8,7 @@ import { Styles } from "../styles/styles";
 
 const Router = () => {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<div>Carregando...</div>}>
       <Styles />
       <Header />
       <Switch>

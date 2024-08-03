@@ -1,7 +1,6 @@
 import { Row, Col } from "antd";
 import { Fade } from "react-awesome-reveal";
 import { withTranslation } from "react-i18next";
-
 import { ContentBlockProps } from "./types";
 import { Button } from "../../common/Button";
 import { SvgIcon } from "../../common/SvgIcon";
@@ -25,7 +24,6 @@ const ContentBlock = ({
   t,
   id,
   direction,
-  
 }: ContentBlockProps) => {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
@@ -50,28 +48,14 @@ const ContentBlock = ({
             <ContentWrapper>
               <h6>{t(title)}</h6>
               <Content>{t(content)}</Content>
-              {direction === "right" ? (
+              {direction === "right" && id === "intro" ? (
                 <ButtonWrapper>
-                  {typeof button === "object" &&
-                    button.map(
-                      (
-                        item: {
-                          color?: string;
-                          title: string;
-                        },
-                        id: number
-                      ) => {
-                        return (
-                          <Button
-                            key={id}
-                            color={item.color}
-                            onClick={() => scrollTo("about")}
-                          >
-                            {t(item.title)}
-                          </Button>
-                        );
-                      }
-                    )}
+                  <Button onClick={() => scrollTo("about")}>
+                    {t("Sobre")}
+                  </Button>
+                  <Button onClick={() => scrollTo("product")}>
+                    {t("Nossos Serviços")}
+                  </Button>
                 </ButtonWrapper>
               ) : (
                 <ServiceWrapper>

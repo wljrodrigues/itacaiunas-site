@@ -52,7 +52,7 @@ const Footer = ({ t }: { t: TFunction }) => {
           <Row justify="space-between">
               <Col lg={10} md={10} sm={12} xs={12}>
               <Language>{t("Contato")}</Language>
-              <Large to="/">{t("Respondemos rapidamente")}</Large>
+              
               <Para>
                 {t(`Você tem alguma pergunta? Sinta-se à vontade para entrar em contato.`)}
               </Para>
@@ -138,10 +138,7 @@ const Footer = ({ t }: { t: TFunction }) => {
               </LogoContainer>
             </NavLink>
             <FooterContainer>
-              <SocialLink
-                href="https://www.instagram.com/editoraitacaiunas/"
-                src="instagram.svg"
-              />
+              
               <SocialLink
                 href="https://www.youtube.com/@itacaiunas"
                 src="youtube.svg"
@@ -151,10 +148,12 @@ const Footer = ({ t }: { t: TFunction }) => {
                 href="https://facebook.com/editoraitacaiunas/"
                 src="facebook.svg"
               />
+
               <SocialLink
-                href="https://twitter.com/editacaiunas"
-                src="twitter.svg"
+                href="https://www.instagram.com/editoraitacaiunas/"
+                src="instagram.svg"
               />
+             
               {/*
               <a
                 href="https://ko-fi.com/Y8Y7H8BNJ"

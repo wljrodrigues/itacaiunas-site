@@ -50,11 +50,11 @@ const ContentBlock = ({
               <Content>{t(content)}</Content>
               {direction === "right" && id === "intro" ? (
                 <ButtonWrapper>
-                  <Button onClick={() => scrollTo("about")}>
-                    {t("Sobre")}
-                  </Button>
                   <Button onClick={() => scrollTo("product")}>
-                    {t("Nossos Serviços")}
+                    {t("Saiba +")}
+                  </Button>
+                  <Button onClick={() => scrollTo("contact")}>
+                    {t("Contato")}
                   </Button>
                 </ButtonWrapper>
               ) : (

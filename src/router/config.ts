@@ -20,6 +20,13 @@ const routes = [
     exact: true,
     component: "Contato",
   },
+  {
+    path: [ "/gerador-online-de-cutter-sanborn"],
+    exact: true,
+    component: "gerador-online-de-cutter-sanborn",
+  },
+
 ];
+
 
 export default routes;

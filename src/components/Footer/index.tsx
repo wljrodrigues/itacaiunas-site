@@ -78,9 +78,10 @@ const Footer = ({ t }: { t: TFunction }) => {
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Onde estamos")}</Language>
-           <a href="https://maps.app.goo.gl/xF143vx1AWSLxVsr9" target="_blak">  
+           <a href="https://maps.app.goo.gl/CPuaAC6232u3mx2o8" target="_blak">  
                <Para>Conj. Abelardo Condurú, </Para>
               <Para>Quadra Dezoito, 7A</Para>
+              <Para>CEP: 67015-170</Para>
               <Para>Ananindeua - Pará</Para>
               </a> 
             </Col>

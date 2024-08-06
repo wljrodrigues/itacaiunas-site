@@ -68,10 +68,12 @@ const Contato = ({ t }: { t: TFunction }) => {
             <Col>
               <Empty />
               <h2>Nossa Loja</h2>
-              <p>Conj. Abelardo Condurú, Quadra Dezoito, 7A, Ananindeua - Pará</p>
-           <p><u><a href="https://maps.app.goo.gl/xF143vx1AWSLxVsr9" target="_blak">  
+              <p>Conj. Abelardo Condurú, Quadra Dezoito, 7A, CEP: 67015-170 - Ananindeua - Pará</p>
+           <p><u><a href="https://maps.app.goo.gl/CPuaAC6232u3mx2o8" target="_blak">  
                ver no maps🗺️ </a></u> </p>
-
+<p>
+  
+</p>
             </Col>        
             </Row>
 

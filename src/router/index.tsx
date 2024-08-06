@@ -5,10 +5,11 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import routes from "./config";
 import { Styles } from "../styles/styles";
+import Loading from "../components/Loanding"; // Importe o novo componente de carregamento
 
 const Router = () => {
   return (
-    <Suspense fallback={<div>Carregando...</div>}>
+    <Suspense fallback={<Loading />}>
       <Styles />
       <Header />
       <Switch>

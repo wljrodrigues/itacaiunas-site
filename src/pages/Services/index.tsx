@@ -11,8 +11,10 @@ const Services = () => {
           <h3>Publicação de Livros</h3>
           <p>Publique seu livro com nossas editoras. Publicamos sua obra nos formatos impresso e e-books.</p>
           <img src="https://editoraitacaiunas.com.br/images/projeto_design_site.png" width="800px"></img> 
-          <br/>
-          <a href="/contato">Entrar em contato!</a>
+          <br/>  
+          <a href="/contato">Entrar em contato</a>
+          <br/><br/>
+          <a href="https://editoraitacaiunas.com.br/">Editora Itacaiúnas</a>
         </div>
         <div className="service-item">
           <h3>Livraria</h3>
@@ -36,18 +38,20 @@ const Services = () => {
         </div>
 
         <div className="service-item">
-          <h3>Soluções Web</h3>
-          <p>Criação de sites e lojas virtuais com hospedagem e domínio.</p>
+          <h3>Soluções Web </h3>
+          <p>Criação de sites para escritores e empreendedores com hospedagem e domínio.</p>
           
           <br/>
           <a href="/contato">Entrar em contato</a>
         </div>
-
+{/*
         <div className="service-item">
           <h3>Mapas Temáticos</h3>
           <p>Elaboração de Mapas Temáticos e Mapas Interativos.</p>
           <a href="/contato">Entrar em contato</a>
         </div>
+
+        */}
 
         </div>
     </div>

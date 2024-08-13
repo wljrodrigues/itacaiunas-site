@@ -69,8 +69,8 @@ const Footer = ({ t }: { t: TFunction }) => {
             
             <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
-              <Large to="/">{t("Itacaiúnas IA")}</Large>
-              <Large to="/">{t("E-books grátis")}</Large>
+              <Large to="https://editoraitacaiunas.com.br/itacaiunas-ia/">{t("Itacaiúnas IA")}</Large>
+              <Large to="https://editoraitacaiunas.com.br/categoria-produto/e-book-gratuito/">{t("E-books grátis")}</Large>
             </Col>
           </Row>
 
@@ -83,6 +83,7 @@ const Footer = ({ t }: { t: TFunction }) => {
               <Para>Quadra Dezoito, 7A</Para>
               <Para>CEP: 67015-170</Para>
               <Para>Ananindeua - Pará</Para>
+              <Para>Seg. a Sexta. Das 9:00 as 16:30</Para>
               </a> 
             </Col>
           
@@ -141,7 +142,7 @@ const Footer = ({ t }: { t: TFunction }) => {
             <FooterContainer>
               
               <SocialLink
-                href="https://www.youtube.com/@itacaiunas"
+                href="https://www.youtube.com/@editoraitacaiunas"
                 src="youtube.svg"
               />
               

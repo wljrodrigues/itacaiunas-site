@@ -38,7 +38,7 @@ const Services = () => {
 
         <div className="service-item">
           <h3>Soluções Web </h3>
-          <p>Criação de sites com domínio e hospedagem, automações, gerenciamento de redes sociais para escritores e empreendedores. </p>
+          <p>Criação de sites com domínio e hospedagem, automações de atendimento, gerenciamento de redes sociais para escritores e empreendedores. </p>
           <img src="https://editoraitacaiunas.com.br/images/solucoes_web_ananindeua.png" width="400px"></img>   
           <br/><br/>
           <a href="/contato">Entrar em contato</a>

@@ -69,8 +69,11 @@ const Contato = ({ t }: { t: TFunction }) => {
               <Empty />
               <h2>Nossa Loja</h2>
               <p>Conj. Abelardo Condurú, Quadra Dezoito, 7A, CEP: 67015-170 - Ananindeua - Pará</p>
+              <p>De Seg. a Sex. das 9:00 as 16:30.</p>
            <p><u><a href="https://maps.app.goo.gl/CPuaAC6232u3mx2o8" target="_blak">  
                ver no maps🗺️ </a></u> </p>
+            
+
 <p>
   
 </p>

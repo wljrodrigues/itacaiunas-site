@@ -1,11 +1,3 @@
-![landy](https://user-images.githubusercontent.com/48876996/121569479-e179db80-ca31-11eb-8a48-9c3de9b142f3.gif)
-
-![Landy React Template License](https://img.shields.io/github/license/Adrinlol/landy-react-template)
-![Landy React Template Release Date](https://img.shields.io/github/release-date/Adrinlol/landy-react-template)
-![Landy React TemplateStars](https://img.shields.io/github/stars/Adrinlol/landy-react-template)
-![Landy React Template Language](https://img.shields.io/github/languages/top/Adrinlol/landy-react-template)
-![Landy React Template TypeScript](https://badgen.net/npm/types/tslib)
-
 ## Free React landing page template
 
 [Landy][Landy] is an open-source React landing page template written in TypeScript, designed for developers and startups, who want to create a quick and professional landing page for their business or project.
@@ -48,7 +40,6 @@ Your project will have everything you need to build a modern single-page React a
 
 ## Google Lighthouse
 
-![1](https://user-images.githubusercontent.com/48876996/121569366-c313e000-ca31-11eb-940c-187f556ff0d6.png)
 
 [Google Lighthouse][Google Lighthouse] is an open-source, automated tool for measuring the quality of web pages. Google Lighthouse audits performance, accessibility and search engine optimization of web pages.
 
@@ -71,7 +62,7 @@ Checks for best practices to ensure your site is discoverable.
 
 ## Demo
 
-Check the live demo here 👉️ https://landy-web.netlify.app/
+Check the live demo here 👉️ https://itacaiunas.com.br
 
 
 ### Installation

@@ -63,14 +63,15 @@ const Footer = ({ t }: { t: TFunction }) => {
 
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Políticas do site")}</Title>
-              <Large to="/privacidade">{t("Privacidade")}</Large>
+                <Large to="/privacidade">{t("Privacidade")}</Large>
               <Large to="/">{t("Termos de uso")}</Large>
             </Col>
             
             <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
-              <Large to="https://editoraitacaiunas.com.br/itacaiunas-ia/">{t("Itacaiúnas IA")}</Large>
-              <Large to="https://editoraitacaiunas.com.br/categoria-produto/e-book-gratuito/">{t("E-books grátis")}</Large>
+             <a href="https://editoraitacaiunas.com.br/itacaiunas-ia/"  target="_blak">Itacaiúnas IA</a><br/><br/>
+            <a href="https://editoraitacaiunas.com.br/categoria-produto/e-book-gratuito/"  target="_blak"> E-books grátis</a>
+
             </Col>
           </Row>
 
@@ -97,6 +98,9 @@ const Footer = ({ t }: { t: TFunction }) => {
           
             <Col lg={6} md={6} sm={12} xs={12}>
             <Label htmlFor="select-lang">{t("Parceiros")}</Label>
+            <a href="https://editoraitacaiunas.com.br/"  target="_blak">Editora Itacaiúnas</a><br/>
+            <a href="https://lojadosmapas.com.br/"  target="_blak">Loja dos Mapas</a><br/>
+
             {/*
               <Label htmlFor="select-lang">{t("Language")}</Label>
               <LanguageSwitchContainer>

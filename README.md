@@ -1,4 +1,4 @@
-## Free React landing page template
+## Free React landing page template EEE
 
 [Landy][Landy] is an open-source React landing page template written in TypeScript, designed for developers and startups, who want to create a quick and professional landing page for their business or project.
 
